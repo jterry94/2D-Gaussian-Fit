@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51FCD2A29F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD2929F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift */; };
+		A51FCD2C29F9AC0A0018D0A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD2B29F9AC0A0018D0A0 /* ContentView.swift */; };
+		A51FCD2E29F9AC0B0018D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FCD2D29F9AC0B0018D0A0 /* Assets.xcassets */; };
+		A51FCD3229F9AC0B0018D0A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FCD3129F9AC0B0018D0A0 /* Preview Assets.xcassets */; };
+		A51FCD3C29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD3B29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift */; };
+		A51FCD4629F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD4529F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift */; };
+		A51FCD4829F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD4729F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51FCD3829F9AC0B0018D0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51FCD1E29F9AC0A0018D0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51FCD2529F9AC0A0018D0A0;
+			remoteInfo = "2D Gaussian Fit";
+		};
+		A51FCD4229F9AC0B0018D0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51FCD1E29F9AC0A0018D0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51FCD2529F9AC0A0018D0A0;
+			remoteInfo = "2D Gaussian Fit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A51FCD2629F9AC0A0018D0A0 /* 2D Gaussian Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2D Gaussian Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51FCD2929F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitApp.swift; sourceTree = "<group>"; };
+		A51FCD2B29F9AC0A0018D0A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A51FCD2D29F9AC0B0018D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51FCD2F29F9AC0B0018D0A0 /* _D_Gaussian_Fit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Gaussian_Fit.entitlements; sourceTree = "<group>"; };
+		A51FCD3129F9AC0B0018D0A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A51FCD3729F9AC0B0018D0A0 /* 2D Gaussian FitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2D Gaussian FitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51FCD3B29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitTests.swift; sourceTree = "<group>"; };
+		A51FCD4129F9AC0B0018D0A0 /* 2D Gaussian FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2D Gaussian FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51FCD4529F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitUITests.swift; sourceTree = "<group>"; };
+		A51FCD4729F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51FCD2329F9AC0A0018D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3429F9AC0B0018D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3E29F9AC0B0018D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51FCD1D29F9AC0A0018D0A0 = {
+			isa = PBXGroup;
+			children = (
+				A51FCD2829F9AC0A0018D0A0 /* 2D Gaussian Fit */,
+				A51FCD3A29F9AC0B0018D0A0 /* 2D Gaussian FitTests */,
+				A51FCD4429F9AC0B0018D0A0 /* 2D Gaussian FitUITests */,
+				A51FCD2729F9AC0A0018D0A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51FCD2729F9AC0A0018D0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51FCD2629F9AC0A0018D0A0 /* 2D Gaussian Fit.app */,
+				A51FCD3729F9AC0B0018D0A0 /* 2D Gaussian FitTests.xctest */,
+				A51FCD4129F9AC0B0018D0A0 /* 2D Gaussian FitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51FCD2829F9AC0A0018D0A0 /* 2D Gaussian Fit */ = {
+			isa = PBXGroup;
+			children = (
+				A51FCD2929F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift */,
+				A51FCD2B29F9AC0A0018D0A0 /* ContentView.swift */,
+				A51FCD2D29F9AC0B0018D0A0 /* Assets.xcassets */,
+				A51FCD2F29F9AC0B0018D0A0 /* _D_Gaussian_Fit.entitlements */,
+				A51FCD3029F9AC0B0018D0A0 /* Preview Content */,
+			);
+			path = "2D Gaussian Fit";
+			sourceTree = "<group>";
+		};
+		A51FCD3029F9AC0B0018D0A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A51FCD3129F9AC0B0018D0A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A51FCD3A29F9AC0B0018D0A0 /* 2D Gaussian FitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A51FCD3B29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift */,
+			);
+			path = "2D Gaussian FitTests";
+			sourceTree = "<group>";
+		};
+		A51FCD4429F9AC0B0018D0A0 /* 2D Gaussian FitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A51FCD4529F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift */,
+				A51FCD4729F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift */,
+			);
+			path = "2D Gaussian FitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51FCD2529F9AC0A0018D0A0 /* 2D Gaussian Fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51FCD4B29F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian Fit" */;
+			buildPhases = (
+				A51FCD2229F9AC0A0018D0A0 /* Sources */,
+				A51FCD2329F9AC0A0018D0A0 /* Frameworks */,
+				A51FCD2429F9AC0A0018D0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2D Gaussian Fit";
+			productName = "2D Gaussian Fit";
+			productReference = A51FCD2629F9AC0A0018D0A0 /* 2D Gaussian Fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A51FCD3629F9AC0B0018D0A0 /* 2D Gaussian FitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51FCD4E29F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian FitTests" */;
+			buildPhases = (
+				A51FCD3329F9AC0B0018D0A0 /* Sources */,
+				A51FCD3429F9AC0B0018D0A0 /* Frameworks */,
+				A51FCD3529F9AC0B0018D0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51FCD3929F9AC0B0018D0A0 /* PBXTargetDependency */,
+			);
+			name = "2D Gaussian FitTests";
+			productName = "2D Gaussian FitTests";
+			productReference = A51FCD3729F9AC0B0018D0A0 /* 2D Gaussian FitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51FCD4029F9AC0B0018D0A0 /* 2D Gaussian FitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51FCD5129F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian FitUITests" */;
+			buildPhases = (
+				A51FCD3D29F9AC0B0018D0A0 /* Sources */,
+				A51FCD3E29F9AC0B0018D0A0 /* Frameworks */,
+				A51FCD3F29F9AC0B0018D0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51FCD4329F9AC0B0018D0A0 /* PBXTargetDependency */,
+			);
+			name = "2D Gaussian FitUITests";
+			productName = "2D Gaussian FitUITests";
+			productReference = A51FCD4129F9AC0B0018D0A0 /* 2D Gaussian FitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51FCD1E29F9AC0A0018D0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A51FCD2529F9AC0A0018D0A0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A51FCD3629F9AC0B0018D0A0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A51FCD2529F9AC0A0018D0A0;
+					};
+					A51FCD4029F9AC0B0018D0A0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A51FCD2529F9AC0A0018D0A0;
+					};
+				};
+			};
+			buildConfigurationList = A51FCD2129F9AC0A0018D0A0 /* Build configuration list for PBXProject "2D Gaussian Fit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51FCD1D29F9AC0A0018D0A0;
+			productRefGroup = A51FCD2729F9AC0A0018D0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51FCD2529F9AC0A0018D0A0 /* 2D Gaussian Fit */,
+				A51FCD3629F9AC0B0018D0A0 /* 2D Gaussian FitTests */,
+				A51FCD4029F9AC0B0018D0A0 /* 2D Gaussian FitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51FCD2429F9AC0A0018D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51FCD3229F9AC0B0018D0A0 /* Preview Assets.xcassets in Resources */,
+				A51FCD2E29F9AC0B0018D0A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3529F9AC0B0018D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3F29F9AC0B0018D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51FCD2229F9AC0A0018D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51FCD2C29F9AC0A0018D0A0 /* ContentView.swift in Sources */,
+				A51FCD2A29F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3329F9AC0B0018D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51FCD3C29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FCD3D29F9AC0B0018D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51FCD4829F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift in Sources */,
+				A51FCD4629F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51FCD3929F9AC0B0018D0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51FCD2529F9AC0A0018D0A0 /* 2D Gaussian Fit */;
+			targetProxy = A51FCD3829F9AC0B0018D0A0 /* PBXContainerItemProxy */;
+		};
+		A51FCD4329F9AC0B0018D0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51FCD2529F9AC0A0018D0A0 /* 2D Gaussian Fit */;
+			targetProxy = A51FCD4229F9AC0B0018D0A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A51FCD4929F9AC0B0018D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51FCD4A29F9AC0B0018D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A51FCD4C29F9AC0B0018D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2D Gaussian Fit/_D_Gaussian_Fit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2D Gaussian Fit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51FCD4D29F9AC0B0018D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2D Gaussian Fit/_D_Gaussian_Fit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2D Gaussian Fit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A51FCD4F29F9AC0B0018D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D Gaussian Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2D Gaussian Fit";
+			};
+			name = Debug;
+		};
+		A51FCD5029F9AC0B0018D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D Gaussian Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2D Gaussian Fit";
+			};
+			name = Release;
+		};
+		A51FCD5229F9AC0B0018D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2D Gaussian Fit";
+			};
+			name = Debug;
+		};
+		A51FCD5329F9AC0B0018D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.-D-Gaussian-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2D Gaussian Fit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51FCD2129F9AC0A0018D0A0 /* Build configuration list for PBXProject "2D Gaussian Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51FCD4929F9AC0B0018D0A0 /* Debug */,
+				A51FCD4A29F9AC0B0018D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51FCD4B29F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51FCD4C29F9AC0B0018D0A0 /* Debug */,
+				A51FCD4D29F9AC0B0018D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51FCD4E29F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian FitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51FCD4F29F9AC0B0018D0A0 /* Debug */,
+				A51FCD5029F9AC0B0018D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51FCD5129F9AC0B0018D0A0 /* Build configuration list for PBXNativeTarget "2D Gaussian FitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51FCD5229F9AC0B0018D0A0 /* Debug */,
+				A51FCD5329F9AC0B0018D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51FCD1E29F9AC0A0018D0A0 /* Project object */;
+}
