@@ -14,6 +14,9 @@
 		A51FCD3C29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD3B29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift */; };
 		A51FCD4629F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD4529F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift */; };
 		A51FCD4829F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD4729F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift */; };
+		A51FCD5529F9ACA30018D0A0 /* Gaussian.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD5429F9ACA30018D0A0 /* Gaussian.swift */; };
+		A51FCD5629F9ACA30018D0A0 /* Gaussian.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD5429F9ACA30018D0A0 /* Gaussian.swift */; };
+		A51FCD5729F9ACA30018D0A0 /* Gaussian.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FCD5429F9ACA30018D0A0 /* Gaussian.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		A51FCD4129F9AC0B0018D0A0 /* 2D Gaussian FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2D Gaussian FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51FCD4529F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitUITests.swift; sourceTree = "<group>"; };
 		A51FCD4729F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Gaussian_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A51FCD5429F9ACA30018D0A0 /* Gaussian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaussian.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				A51FCD2929F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift */,
 				A51FCD2B29F9AC0A0018D0A0 /* ContentView.swift */,
+				A51FCD5429F9ACA30018D0A0 /* Gaussian.swift */,
 				A51FCD2D29F9AC0B0018D0A0 /* Assets.xcassets */,
 				A51FCD2F29F9AC0B0018D0A0 /* _D_Gaussian_Fit.entitlements */,
 				A51FCD3029F9AC0B0018D0A0 /* Preview Content */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51FCD2C29F9AC0A0018D0A0 /* ContentView.swift in Sources */,
+				A51FCD5529F9ACA30018D0A0 /* Gaussian.swift in Sources */,
 				A51FCD2A29F9AC0A0018D0A0 /* _D_Gaussian_FitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51FCD5629F9ACA30018D0A0 /* Gaussian.swift in Sources */,
 				A51FCD3C29F9AC0B0018D0A0 /* _D_Gaussian_FitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51FCD4829F9AC0B0018D0A0 /* _D_Gaussian_FitUITestsLaunchTests.swift in Sources */,
+				A51FCD5729F9ACA30018D0A0 /* Gaussian.swift in Sources */,
 				A51FCD4629F9AC0B0018D0A0 /* _D_Gaussian_FitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
